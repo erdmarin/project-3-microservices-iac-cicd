@@ -1,0 +1,12 @@
+{
+  "name": "notification-worker",
+  "version": "1.0.0",
+  "main": "worker.js",
+  "scripts": {
+    "start": "node worker.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-sqs": "^3.600.0"
+  }
+}
+
